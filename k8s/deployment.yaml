@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: faelsriegel/DevOpsElite-kube-news:{{TAG}}
+          image: faelsriegel/devopselite-kube-news:{{TAG}}
           ports:
             - containerPort: 8080
           env:
